@@ -1,5 +1,11 @@
 import React from "react";
-import { Layout, Menu } from "antd";
+// import { Layout, Menu } from "antd";
+
+import Layout from 'antd/es/layout';
+import 'antd/es/layout/style/css';
+import Menu from 'antd/es/menu';
+import 'antd/es/menu/style/css';
+
 const { Header } = Layout;
 
 class Layout1 extends React.Component {
