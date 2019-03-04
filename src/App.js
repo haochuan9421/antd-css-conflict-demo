@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Loadable from "react-loadable";
+import 'antd/dist/antd.css';
 
 const Layout1 = Loadable({
   loader: () => import("./Layout1"),
